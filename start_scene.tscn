@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://c2e5bu1hdun5o"]
 
-[ext_resource type="FontFile" path="res://fonts/ARCADECLASSIC.TTF" id="1_kt8k5"]
+[ext_resource type="FontFile" uid="uid://bre2xgoyw4rd2" path="res://fonts/Retro Gaming.ttf" id="1_kt8k5"]
 
 [sub_resource type="Theme" id="Theme_p6slm"]
 default_font = ExtResource("1_kt8k5")
