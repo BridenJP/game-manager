@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwglkfs3esdoi"]
+
+[ext_resource type="FontFile" uid="uid://bir5psn1xxyxh" path="res://fonts/ARCADECLASSIC.TTF" id="1_kt8k5"]
+
+[sub_resource type="Theme" id="Theme_p6slm"]
+default_font = ExtResource("1_kt8k5")
+default_font_size = 32
+
+[node name="StartScene" type="Node2D"]
+scale = Vector2(4, 4)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 321.0
+offset_bottom = 242.0
+color = Color(0, 0, 0, 1)
+
+[node name="Button" type="Button" parent="."]
+texture_filter = 3
+offset_left = 96.0
+offset_top = 88.0
+offset_right = 224.0
+offset_bottom = 152.0
+theme = SubResource("Theme_p6slm")
+text = "START"
+flat = true
