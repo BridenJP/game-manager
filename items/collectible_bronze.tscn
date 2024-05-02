@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://7rth2xauf7sa"]
+
+[ext_resource type="PackedScene" uid="uid://crqglqhj31gls" path="res://items/collectible.tscn" id="1_k6x7u"]
+[ext_resource type="Script" path="res://items/collectible_bronze.gd" id="2_7ejwp"]
+
+[node name="Collectible_Bronze" instance=ExtResource("1_k6x7u")]
+script = ExtResource("2_7ejwp")
+
+[node name="ColorRect" parent="." index="1"]
+color = Color(0.384314, 0.352941, 0, 1)

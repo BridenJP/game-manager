@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgqo0pmoeseie"]
+
+[ext_resource type="Theme" uid="uid://d882fr23msvy" path="res://themes/font_theme.tres" id="1_a54di"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e3k8i"]
+bg_color = Color(0, 0.666667, 0, 1)
+
+[node name="GameOver" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+texture_filter = 3
+offset_left = 324.0
+offset_top = 612.0
+offset_right = 952.0
+offset_bottom = 724.0
+theme = ExtResource("1_a54di")
+theme_override_styles/normal = SubResource("StyleBoxFlat_e3k8i")
+text = "PLAY AGAIN"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 348.0
+offset_top = 224.0
+offset_right = 924.0
+offset_bottom = 336.0
+theme = ExtResource("1_a54di")
+text = "GAME OVER"
+horizontal_alignment = 1
+vertical_alignment = 1

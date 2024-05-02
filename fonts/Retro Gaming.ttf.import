@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bir5psn1xxyxh"
-path="res://.godot/imported/ARCADECLASSIC.TTF-ce1c6362ebb2bee1f8ee05dd870cd3b3.fontdata"
+uid="uid://byycyc25net55"
+path="res://.godot/imported/Retro Gaming.ttf-dad03884b8f0a8a950353fb9a5b356c4.fontdata"
 
 [deps]
 
-source_file="res://fonts/ARCADECLASSIC.TTF"
-dest_files=["res://.godot/imported/ARCADECLASSIC.TTF-ce1c6362ebb2bee1f8ee05dd870cd3b3.fontdata"]
+source_file="res://fonts/Retro Gaming.ttf"
+dest_files=["res://.godot/imported/Retro Gaming.ttf-dad03884b8f0a8a950353fb9a5b356c4.fontdata"]
 
 [params]
 

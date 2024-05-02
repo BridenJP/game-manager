@@ -1,15 +1,5 @@
-extends Node2D
+extends Level
 
-var score = 0
-var Collectible = preload("res://collectible.tscn")
-
-func _ready():
-	for i in range(12):
-		var collectible = Collectible.instantiate()
-		collectible.position = Vector2(300 + 50 * i, 260)
-		collectible.connect("collected", _on_collectible_collected)
-		add_child(collectible)
-
-func _on_collectible_collected(value):
-	score += value
-	$Score.text = str(score)
+func make_items() -> void:
+	for i in range(16):
+		make_collectible(CollectibleBronze, 250 + 40 * i, 300 + 40 * cos(i * PI / 8))

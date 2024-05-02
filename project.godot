@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="collectible-score"
-run/main_scene="res://start_scene.tscn"
+run/main_scene="res://game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=1
 
 [display]
 

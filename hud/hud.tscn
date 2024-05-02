@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://uqn1xtwgqh6s"]
+
+[ext_resource type="Script" path="res://hud/hud.gd" id="1_fa7la"]
+[ext_resource type="Theme" uid="uid://d882fr23msvy" path="res://themes/font_theme.tres" id="1_l6epy"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_fa7la")
+
+[node name="ScoreLabel" type="Label" parent="."]
+texture_filter = 3
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 60.0
+offset_bottom = 43.0
+theme = ExtResource("1_l6epy")
+text = "0"
+
+[node name="TimerLabel" type="Label" parent="."]
+texture_filter = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -88.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 132.0
+grow_horizontal = 0
+theme = ExtResource("1_l6epy")
+text = "0"
+horizontal_alignment = 2
